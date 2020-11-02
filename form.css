@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(62, 143, 139);
+    color: rgba(245, 245, 245, 0.966);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 960px;
+    padding: 40px;
+}
+
+.form-wrap {
+    margin: 0 180px 0 180px;
+    background-color: rgba(245, 222, 179, 0.918);
+    padding: 40px;
+    line-height: 2.0em;
+    height: 700px;
+    width: 450px;
+    border: 1px #ddd solid;
+    border-radius: 10px;
+}
+
+.form-wrap h2,
+.form-wrap p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.form-wrap .form-group {
+    margin: 10px;
+}
+
+.form-wrap .form-group label {
+    display: block;
+}
+
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 8px;
+}
+
+.btn {
+    width: 98%;
+    padding: 8px;
+    background-color: rgb(176, 224, 64);
+    display: block;
+    border-radius: 3px;
+    color: white;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
+.down-text {
+    text-emphasis: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+footer a {
+    color: rgb(32, 32, 136);
+}
+
+footer a:hover {
+    color: turquoise;
+}
+
+footer p {
+    color: white;
+}
